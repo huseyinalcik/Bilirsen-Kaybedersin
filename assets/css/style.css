@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+body{
+    background:#363062;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+.kapsayici{
+    width: 600px;
+}
+.anasayfa{
+display: none;
+}
+.sorular{
+display: none;
+}
+.aktif{
+    display: flex;
+}
+.bg-badge{
+    background-color: #827397;
+    color: #E9D5CA;
+    font-size: 12px;
+}
+.fc{
+    color: #E9D5CA;
+}
+.fs-l{
+    font-size: 90px;
+    color:#BDF2D5 ;
+}
+.fs-text{
+    font-size: 40px;
+}
+.button_start button i{
+    transition: .5s ease;
+}
+.button_start button:hover i{
+color:#5FD068 !important;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    background-color: #E9D5CA;
+    color: #4D4C7D;
+    font-size: 32px;
+    transition: .3s ease;
+}
+.box:hover{
+    background-color: #4D4C7D;
+    color: #E9D5CA;
+}
+
+
+@media only screen and (max-width: 576px){
+.fs-text{
+    font-size: 30px;
+}
+}
