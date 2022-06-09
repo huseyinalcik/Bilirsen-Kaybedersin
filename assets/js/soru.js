@@ -6,7 +6,7 @@ function Soru(soru,cevap,dogruCevap){
 
 
 Soru.prototype.cevabKontrol=function(cevap){
-    return cevap===this.dogruCevap;
+    return cevap==this.dogruCevap;
 }
 
 
@@ -31,4 +31,4 @@ let sorular =[
     new Soru("18- Mum Doğal Işık Kaynağı Değildir?",{a:"Evet",b:"Hayır"},"b"),
     new Soru("19- Hangisi Daha Değerlidir?",{a:"Tahta",b:"Altın"},"a"),
     new Soru("20- Su Kaç Derecede Kaynamaz?",{a:"100",b:"-10"},"a")
-]
+];

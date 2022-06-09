@@ -5,6 +5,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: center;
     font-family: 'Roboto Slab', serif;
 }
@@ -13,9 +14,13 @@ body{
 }
 .anasayfa{
 display: none;
+box-shadow: #827397 0px 3px 12px;
 }
 .sorular{
 display: none;
+}
+.puan{
+    display: none;
 }
 .aktif{
     display: flex;
@@ -53,10 +58,67 @@ color:#5FD068 !important;
     background-color: #4D4C7D;
     color: #E9D5CA;
 }
+.box span{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.puan{
+    border: 1px solid #E9D5CA;
+    border-radius: 10px;
+    box-shadow: #E9D5CA 0px 5px, #E9D5CA 0px 10px;
+}
+.puan span{
+    color: #E9D5CA;
+}
+.puan_i{
+    color: #827397;
+}
+.sosyal h4{
+    color: #E9D5CA;
+}
+
+
+
+
+
+/* social media */
+.icon-hvr{
+    margin-left: 3px;
+    color: #fff;
+    border: 2px solid #5b87b2;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 1px;
+    font-size: 22px;
+    text-align: center;
+    transition: .5s;
+  }
+  
+  .icon-hvr:hover{
+    background-color: #fff ;
+  }
+  .instagram:hover{
+  color: #cd486b;
+  }
+
 
 
 @media only screen and (max-width: 576px){
 .fs-text{
     font-size: 30px;
+}
+.kapsayici{
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.box span{
+font-size: 20px;
+}
+.soru-getir div{
+    padding: .5rem .5rem !important;
 }
 }
