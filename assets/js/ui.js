@@ -44,7 +44,7 @@ UI.prototype.puanHesapla = function (skor) {
    if (skor<50) {text = "Kötü Oyuncusun";}
    else if(skor<100){ text = "İlk Deneme İçin Fena Değil";}
    else if(skor<150){ text = "Ortalama Oyuncu";}
-   else if(skor<180){ text = "Sen Bu İşi Çözmüşsün Artık :)";}
+   else if(skor<210){ text = "Sen Bu İşi Çözmüşsün Artık :)";}
    else{text="Bir şeyler Ters Gitti";}
 
     let text_=`<span class="fs-5">${text}</span>`;
